@@ -4,7 +4,7 @@ import shutil
 
 
 def main():
-    path = input("Enter a valid absolut path (defaults to $HOME/Downloads/): ") or os.getenv("HOME") + "/Downloads/"
+    path = input("Enter a valid absolute path (defaults to $HOME/Downloads/): ") or os.getenv("HOME") + "/Downloads/"
     now = time.time()
     times = {'days': 86400, 'hours': 3600, 'minutes': 60}
     time_period = input("Enter desired time period (e.g. days, hours, minutes): ")
